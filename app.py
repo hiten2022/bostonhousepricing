@@ -31,7 +31,7 @@ def predict():
     output=regmodel.predict(final_input)[0]
     return render_template("home.html",prediction_text="The House price prediction is {}".format(output))
     # nsut
-
+# shrey
 
 if __name__=="__main__":
     app.run(debug=True)
